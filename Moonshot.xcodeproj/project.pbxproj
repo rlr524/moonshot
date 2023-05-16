@@ -12,6 +12,7 @@
 		072261312A14129900D73B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072261302A14129900D73B15 /* Assets.xcassets */; };
 		072261342A14129900D73B15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072261332A14129900D73B15 /* Preview Assets.xcassets */; };
 		075DFE682A1419710031B739 /* MadisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075DFE672A1419710031B739 /* MadisonView.swift */; };
+		075DFE6D2A14239F0031B739 /* ScrollingDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075DFE6C2A14239F0031B739 /* ScrollingDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		072261302A14129900D73B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		072261332A14129900D73B15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		075DFE672A1419710031B739 /* MadisonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadisonView.swift; sourceTree = "<group>"; };
+		075DFE6C2A14239F0031B739 /* ScrollingDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingDataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				0722612C2A14129800D73B15 /* MoonshotApp.swift */,
 				0722612E2A14129800D73B15 /* ContentView.swift */,
 				075DFE672A1419710031B739 /* MadisonView.swift */,
+				075DFE6C2A14239F0031B739 /* ScrollingDataView.swift */,
 				072261302A14129900D73B15 /* Assets.xcassets */,
 				072261322A14129900D73B15 /* Preview Content */,
 			);
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				075DFE6D2A14239F0031B739 /* ScrollingDataView.swift in Sources */,
 				0722612F2A14129800D73B15 /* ContentView.swift in Sources */,
 				075DFE682A1419710031B739 /* MadisonView.swift in Sources */,
 				0722612D2A14129800D73B15 /* MoonshotApp.swift in Sources */,
