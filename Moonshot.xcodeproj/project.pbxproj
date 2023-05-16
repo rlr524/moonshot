@@ -11,6 +11,7 @@
 		0722612F2A14129800D73B15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0722612E2A14129800D73B15 /* ContentView.swift */; };
 		072261312A14129900D73B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072261302A14129900D73B15 /* Assets.xcassets */; };
 		072261342A14129900D73B15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072261332A14129900D73B15 /* Preview Assets.xcassets */; };
+		075DFE682A1419710031B739 /* MadisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075DFE672A1419710031B739 /* MadisonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0722612E2A14129800D73B15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		072261302A14129900D73B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		072261332A14129900D73B15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		075DFE672A1419710031B739 /* MadisonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadisonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				0722612C2A14129800D73B15 /* MoonshotApp.swift */,
 				0722612E2A14129800D73B15 /* ContentView.swift */,
+				075DFE672A1419710031B739 /* MadisonView.swift */,
 				072261302A14129900D73B15 /* Assets.xcassets */,
 				072261322A14129900D73B15 /* Preview Content */,
 			);
@@ -77,6 +80,7 @@
 				072261252A14129800D73B15 /* Sources */,
 				072261262A14129800D73B15 /* Frameworks */,
 				072261272A14129800D73B15 /* Resources */,
+				075DFE692A141C470031B739 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -132,12 +136,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		075DFE692A141C470031B739 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint is not installed.\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		072261252A14129800D73B15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0722612F2A14129800D73B15 /* ContentView.swift in Sources */,
+				075DFE682A1419710031B739 /* MadisonView.swift in Sources */,
 				0722612D2A14129800D73B15 /* MoonshotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
