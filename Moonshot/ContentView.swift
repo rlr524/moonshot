@@ -8,27 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var showingScrollingDataView = false
+    let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
+    let missions: [Mission] = Bundle.main.decode("missions.json")
     
     var body: some View {
-        NavigationView {
-            // NavigationLink is for showing something like details about a user's selection
-            // sheet() is for showing unrelated content
-            List(0..<100) { _ in
-                NavigationLink {
-                    MadisonView()
-                } label: {
-                    Text("Hello, Madison")
-                        .padding()
-                }
-                .navigationTitle("SwiftUI")
-            }
-        }
+        Text("\(astronauts.count)")
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }
