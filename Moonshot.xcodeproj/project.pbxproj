@@ -19,6 +19,10 @@
 		077430692A2EDE6700618F07 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077430682A2EDE6700618F07 /* Astronaut.swift */; };
 		0774306B2A2EDEC600618F07 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774306A2A2EDEC600618F07 /* Bundle-Decodable.swift */; };
 		0774306D2A2EE0AF00618F07 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774306C2A2EE0AF00618F07 /* Mission.swift */; };
+		077F14602A35251B00B03F06 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F145F2A35251B00B03F06 /* AstronautView.swift */; };
+		077F14622A353BEE00B03F06 /* CustomDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F14612A353BEE00B03F06 /* CustomDivider.swift */; };
+		077F14642A353CBE00B03F06 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F14632A353CBE00B03F06 /* GridLayout.swift */; };
+		077F14662A353E4200B03F06 /* ListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F14652A353E4200B03F06 /* ListLayout.swift */; };
 		0794D3CF2A3261EC00427E02 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0794D3CE2A3261EC00427E02 /* MissionView.swift */; };
 		07DAC1672A300A8C0031D326 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DAC1662A300A8C0031D326 /* Color-Theme.swift */; };
 /* End PBXBuildFile section */
@@ -37,6 +41,10 @@
 		077430682A2EDE6700618F07 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		0774306A2A2EDEC600618F07 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		0774306C2A2EE0AF00618F07 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		077F145F2A35251B00B03F06 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		077F14612A353BEE00B03F06 /* CustomDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDivider.swift; sourceTree = "<group>"; };
+		077F14632A353CBE00B03F06 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		077F14652A353E4200B03F06 /* ListLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLayout.swift; sourceTree = "<group>"; };
 		0794D3CE2A3261EC00427E02 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		07DAC1662A300A8C0031D326 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +123,10 @@
 			children = (
 				0722612E2A14129800D73B15 /* ContentView.swift */,
 				0794D3CE2A3261EC00427E02 /* MissionView.swift */,
+				077F145F2A35251B00B03F06 /* AstronautView.swift */,
+				077F14612A353BEE00B03F06 /* CustomDivider.swift */,
+				077F14632A353CBE00B03F06 /* GridLayout.swift */,
+				077F14652A353E4200B03F06 /* ListLayout.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -232,12 +244,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				075DFE6D2A14239F0031B739 /* ScrollingDataView.swift in Sources */,
+				077F14662A353E4200B03F06 /* ListLayout.swift in Sources */,
 				0722612F2A14129800D73B15 /* ContentView.swift in Sources */,
 				0774306D2A2EE0AF00618F07 /* Mission.swift in Sources */,
 				075DFE682A1419710031B739 /* MadisonView.swift in Sources */,
 				077430692A2EDE6700618F07 /* Astronaut.swift in Sources */,
 				077430622A2EC1F500618F07 /* GridView.swift in Sources */,
+				077F14642A353CBE00B03F06 /* GridLayout.swift in Sources */,
+				077F14602A35251B00B03F06 /* AstronautView.swift in Sources */,
 				0774306B2A2EDEC600618F07 /* Bundle-Decodable.swift in Sources */,
+				077F14622A353BEE00B03F06 /* CustomDivider.swift in Sources */,
 				07DAC1672A300A8C0031D326 /* Color-Theme.swift in Sources */,
 				0722612D2A14129800D73B15 /* MoonshotApp.swift in Sources */,
 				0794D3CF2A3261EC00427E02 /* MissionView.swift in Sources */,

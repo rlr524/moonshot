@@ -21,11 +21,14 @@ struct MissionView: View {
                         .frame(maxWidth: geo.size.width * 0.6)
                         .padding(.top)
                     
+                    Spacer()
+                    
+                    if let date = mission.launchDate {
+                        Label(date.formatted(date: .complete, time: .omitted), systemImage: "calendar")
+                    }
+                    
                     VStack(alignment: .leading) {
-                        Rectangle()
-                            .frame(height: 2)
-                            .foregroundColor(.lightBackground)
-                            .padding(.vertical)
+                        CustomDivider()
                         
                         Text("Mission Highlights")
                             .font(.title.bold())
@@ -33,10 +36,7 @@ struct MissionView: View {
                         
                         Text(mission.description)
                         
-                        Rectangle()
-                            .frame(height: 2)
-                            .foregroundColor(.lightBackground)
-                            .padding(.vertical)
+                        CustomDivider()
                         
                         Text("Crew")
                             .font(.title.bold())
@@ -48,7 +48,7 @@ struct MissionView: View {
                         VStack(alignment: .leading) {
                             ForEach(crew, id: \.role) { crewMember in
                                 NavigationLink {
-                                    Text("Astronaut details")
+                                    AstronautView(astronaut: crewMember.astronaut)
                                 } label: {
                                     HStack(alignment: .center) {
                                         Image(crewMember.astronaut.id)
@@ -105,7 +105,7 @@ struct MissionView_Previews: PreviewProvider {
     static let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
     
     static var previews: some View {
-        MissionView(mission: missions[0], astronauts: astronauts)
+        MissionView(mission: missions[1], astronauts: astronauts)
             .preferredColorScheme(.dark)
     }
 }
